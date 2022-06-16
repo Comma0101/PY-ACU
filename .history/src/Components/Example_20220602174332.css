@@ -1,0 +1,24 @@
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("./2.jpeg");
+
+}
+
+.top-nav-collapse {
+    background-color: #778da9;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #778da9;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #778da9;
+    }
+}

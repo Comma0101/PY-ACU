@@ -1,0 +1,64 @@
+import React, { useState } from "react";
+
+import { Toast, Navbar, Nav, Row, Col } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import ServiceOption from "./Components/ServiceOption";
+import "./App.css";
+
+const ExampleToast = ({ children }) => {
+  const [show, toggleShow] = useState(true);
+
+  return (
+    <Toast show={show} onClose={() => toggleShow(!show)}>
+      <Toast.Header>
+        <strong className="mr-auto">React-Bootstrap</strong>
+      </Toast.Header>
+      <Toast.Body>{children}</Toast.Body>
+    </Toast>
+  );
+};
+
+const App = () => (
+  <Container className="p-7">
+    <Navbar bg="dark" variant="dark">
+      <Container>
+        <Navbar.Brand href="#home">Nassvbar</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Features</Nav.Link>
+          <Nav.Link href="#pricing">Pricing</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+
+    <Container className="p-5 mb-4 bg-light rounded-3">
+      <h1 className="header">Welcome To React-Bootstrap</h1>
+      <ExampleToast>
+        We now have Toasts
+        <span role="img" aria-label="tada">
+          🎉
+        </span>
+      </ExampleToast>
+    </Container>
+    <Container className="p-5 mb-4 bg-light rounded-3">
+      <Row>
+        <Col>
+          <ServiceOption />
+        </Col>
+        <Col>
+          <ServiceOption />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <ServiceOption />
+        </Col>
+        <Col>
+          <ServiceOption />
+        </Col>
+      </Row>
+    </Container>
+  </Container>
+);
+
+export default App;

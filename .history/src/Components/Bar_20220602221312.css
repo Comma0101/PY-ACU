@@ -1,0 +1,22 @@
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355C;
+    }
+}
+.navbar {
+    background-color: rgb(215, 7, 234);
+}
+
+.navbarscroll {
+    background-color: #cc0e0e;
+}

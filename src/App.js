@@ -13,7 +13,7 @@ const App = () => (
   <div>
     <Landings />
     <Container className="p-1">
-      <ServiceView />
+      
       <ServiceCards />
       <Gallary />
       <Contact />

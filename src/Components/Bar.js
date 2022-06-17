@@ -27,7 +27,7 @@ function Bar(props) {
           className="scrollspy-example"
           tabIndex="0"
         >
-          <Navbar.Brand href="#intro">PY ACU-SPA</Navbar.Brand>
+          <Navbar.Brand href="#intro">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

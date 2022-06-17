@@ -1,5 +1,6 @@
 .top-nav-collapse {
     background-color: #24355C;
+    background:transparent
 }
 
 @media (max-width: 768px) {

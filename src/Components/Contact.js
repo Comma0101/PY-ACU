@@ -34,13 +34,11 @@ function Map() {
         <div className="col position-relative">
           <div className="position-absolute top-50 start-50 translate-middle">
             <a
-              className=""
-              style={{ color: "inherit", textDecoration: "none" }}
+              type="button" className="btn btn-success"
+              style={{ color: "green", textDecoration: "none" }}
               href="https://www.google.com/maps/place/2150+E+South+St+%23108,+Long+Beach,+CA+90805/@33.8594632,-118.1661746,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd3318dcfa7ab5:0x30088b5cc0d36daa!8m2!3d33.8594632!4d-118.1661746"
             >
-              <p className="h3">
-                2150 E South St #108,<br></br> Long Beach, CA 90805
-              </p>
+             Navigation
             </a>
 
             <p className="h3">562-470-6350</p>

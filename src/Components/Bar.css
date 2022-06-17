@@ -1,17 +1,16 @@
 .top-nav-collapse {
-    background-color: #24355C;
-    background:transparent
+    background-color: transparent
 }
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background-color: #24355C;
+        background-color: transparent;
     }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-        background-color: #24355C;
+        background-color: transparent;
     }
 }
 .navbar-brand {

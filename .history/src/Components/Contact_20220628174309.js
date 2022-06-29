@@ -22,6 +22,7 @@ function Map() {
     <div className="container pt-5" id="About-Us">
       <div className="row row-cols-2">
         <div className="col">
+          <p className="h7 ">2150 E South St #108, Long Beach, CA 90805</p>
           <img src={Mapic} class="img-fluid" alt="Responsive image"></img>
         </div>
         <div className="col position-relative">
@@ -36,10 +37,10 @@ function Map() {
             </a>
 
             <p className="h5 pt-2">562-470-6350</p>
+            <p className="h7 ">2150 E South St #108, Long Beach, CA 90805</p>
           </div>
         </div>
       </div>
-      <p className="h9 ">2150 E South St #108, Long Beach, CA 90805</p>
     </div>
   );
 }

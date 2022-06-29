@@ -36,10 +36,10 @@ function Map() {
             </a>
 
             <p className="h5 pt-2">562-470-6350</p>
+            <p className="h9 ">2150 E South St #108, Long Beach, CA 90805</p>
           </div>
         </div>
       </div>
-      <p className="h9 ">2150 E South St #108, Long Beach, CA 90805</p>
     </div>
   );
 }

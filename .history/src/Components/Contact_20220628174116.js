@@ -23,9 +23,16 @@ function Map() {
       <div className="row row-cols-2">
         <div className="col">
           <img src={Mapic} class="img-fluid" alt="Responsive image"></img>
+          {/* <GoogleMap
+            mapContainerStyle={containerStyle}
+            zoom={2}
+            center={{ lat: 44, lng: -80 }}
+          >
+            <Marker position={{ lat: 44, lng: -80 }} />
+          </GoogleMap> */}
         </div>
         <div className="col position-relative">
-          <div className="position-absolute top-50 start-50 translate-middle pb-2">
+          <div className="position-absolute  translate-middle pb-2">
             <a
               type="button"
               className="btn btn-success"
@@ -37,9 +44,9 @@ function Map() {
 
             <p className="h5 pt-2">562-470-6350</p>
           </div>
+          <p className="h5 ">2150 E South St #108, Long Beach, CA 90805</p>
         </div>
       </div>
-      <p className="h9 ">2150 E South St #108, Long Beach, CA 90805</p>
     </div>
   );
 }

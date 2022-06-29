@@ -11,31 +11,39 @@ const ServiceCards = (props) => {
             <section className="mx-auto ">
               <div className="card booking-card border-0 v-2 mt-2 mb-3 rounded-bottom ">
                 <img src={pic1} className="card-img-top" />
+              </div>
+              <div className="card-body">
+                <h4 className="card-title font-weight-bold">
+                  <a>Acupuncture</a>
+                </h4>
 
-                <div className="card-body">
-                  <h4 className="card-title font-weight-bold">
-                    <a>Acupuncture</a>
-                  </h4>
-                  <div className="col">
-                    <p className="card-text">
-                      Deep tissue massage techniques are used to break up scar
-                      tissue and physically break down muscle "knots" or
-                      adhesion (bands of painful, rigid tissue) that can disrupt
-                      circulation and cause pain, limited range of motion, and
-                      inflammation.
-                    </p>
-                  </div>
+                <div className="col">
+                  <p className="card-text">
+                    Deep tissue massage techniques are used to break up scar
+                    tissue and physically break down muscle "knots" or adhesion
+                    (bands of painful, rigid tissue) that can disrupt
+                    circulation and cause pain, limited range of motion, and
+                    inflammation
+                  </p>
+                </div>
 
-                  <div className="col">
-                    <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
-                    <div className="row align-items-start"></div>
-                    <div className="row align-items-start">
-                      <div className="col">Now 50% OFF 60 mins</div>
-                      <div className="col chip ms-3">$65</div>
+                <div className="col">
+                  <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
+                  <div className="row align-items-start">
+                    <div className="col">
+                      <del>60 mins </del>
                     </div>
+                    <div className="col chip ms-3">
+                      <del>120$</del>
+                    </div>
+                  </div>
+                  <div className="row align-items-start">
+                    <div className="col">60 mins</div>
+                    <div className="col chip ms-3">65$</div>
                   </div>
                 </div>
               </div>
+              ;
             </section>
           </div>
         </div>
@@ -73,11 +81,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$45</div>
+                      <div className="col chip ms-3">45$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$65</div>
+                      <div className="col chip ms-3">65$</div>
                     </div>
                   </div>
                 </div>
@@ -103,11 +111,11 @@ const ServiceCards = (props) => {
                     ></div>
                   </a>
                 </div>
+
                 <div className="card-body">
                   <h4 className="card-title font-weight-bold">
                     <a>Body Massage</a>
                   </h4>
-
                   <div className="col">
                     <p className="card-text">
                       The benefits of receiving massage or bodywork treatments
@@ -124,15 +132,15 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$40</div>
+                      <div className="col chip ms-3">40$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$60</div>
+                      <div className="col chip ms-3">60$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">90 mins</div>
-                      <div className="col chip ms-3">$90</div>
+                      <div className="col chip ms-3">90$</div>
                     </div>
                   </div>
                 </div>
@@ -176,11 +184,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$20</div>
+                      <div className="col chip ms-3">20$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$30</div>
+                      <div className="col chip ms-3">30$</div>
                     </div>
                   </div>
                 </div>

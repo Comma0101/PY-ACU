@@ -18,20 +18,29 @@ const ServiceCards = (props) => {
                   </h4>
                   <div className="col">
                     <p className="card-text">
-                      Deep tissue massage techniques are used to break up scar
-                      tissue and physically break down muscle "knots" or
-                      adhesion (bands of painful, rigid tissue) that can disrupt
-                      circulation and cause pain, limited range of motion, and
-                      inflammation.
+                      The benefits of receiving massage or bodywork treatments
+                      are listed below and more, massage can: Alleviate low-back
+                      pain and improve range of motion. A Enhance immunity by
+                      stimulating lymph flow—the body's natural defense system.
+                      Exercise and stretch weak, tight, or atrophied muscles.
+                      Help athletes of any level prepare for, and recover from,
+                      strenuous workouts. Increase joint flexibility.
                     </p>
                   </div>
 
                   <div className="col">
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
-                    <div className="row align-items-start"></div>
                     <div className="row align-items-start">
-                      <div className="col">Now 50% OFF 60 mins</div>
-                      <div className="col chip ms-3">$65</div>
+                      <div className="col">30 mins</div>
+                      <div className="col chip ms-3">40$</div>
+                    </div>
+                    <div className="row align-items-start">
+                      <div className="col">60 mins</div>
+                      <div className="col chip ms-3">60$</div>
+                    </div>
+                    <div className="row align-items-start">
+                      <div className="col">90 mins</div>
+                      <div className="col chip ms-3">90$</div>
                     </div>
                   </div>
                 </div>
@@ -73,11 +82,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$45</div>
+                      <div className="col chip ms-3">45$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$65</div>
+                      <div className="col chip ms-3">65$</div>
                     </div>
                   </div>
                 </div>
@@ -110,29 +119,27 @@ const ServiceCards = (props) => {
 
                   <div className="col">
                     <p className="card-text">
-                      The benefits of receiving massage or bodywork treatments
-                      are listed below and more, massage can: Alleviate low-back
-                      pain and improve range of motion. A Enhance immunity by
-                      stimulating lymph flow—the body's natural defense system.
-                      Exercise and stretch weak, tight, or atrophied muscles.
-                      Help athletes of any level prepare for, and recover from,
-                      strenuous workouts. Increase joint flexibility.
+                      Deep tissue massage techniques are used to break up scar
+                      tissue and physically break down muscle "knots" or
+                      adhesion (bands of painful, rigid tissue) that can disrupt
+                      circulation and cause pain, limited range of motion, and
+                      inflammation
                     </p>
                   </div>
 
                   <div className="col">
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
-                      <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$40</div>
+                      <div className="col">
+                        <del>60 mins </del>
+                      </div>
+                      <div className="col chip ms-3">
+                        <del>120$</del>
+                      </div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$60</div>
-                    </div>
-                    <div className="row align-items-start">
-                      <div className="col">90 mins</div>
-                      <div className="col chip ms-3">$90</div>
+                      <div className="col chip ms-3">65$</div>
                     </div>
                   </div>
                 </div>
@@ -176,11 +183,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$20</div>
+                      <div className="col chip ms-3">20$</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$30</div>
+                      <div className="col chip ms-3">30$</div>
                     </div>
                   </div>
                 </div>

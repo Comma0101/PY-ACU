@@ -32,7 +32,7 @@ function Map() {
           </GoogleMap> */}
         </div>
         <div className="col position-relative">
-          <div className="position-absolute top-50 start-50 translate-middle pb-2">
+          <div className="position-absolute top-50 start-50 translate-middle">
             <a
               type="button"
               className="btn btn-success"
@@ -43,7 +43,9 @@ function Map() {
             </a>
 
             <p className="h5 pt-2">562-470-6350</p>
-            <p className="h5 ">2150 E South St #108, Long Beach, CA 90805</p>
+            <p className="h5 pt-2">
+              2150 E South St #108, Long Beach, CA 90805
+            </p>
           </div>
         </div>
       </div>

@@ -12,10 +12,6 @@ export default function Gallary() {
     <div id="Gallary">
       <Container>
         <Row>
-          <h7>
-            *We provide Body and Combo Massage in room A, Acupuncture Therapy
-            and Foot Massage in room B.
-          </h7>
           <Col className="p-3 t-3" xs={6} md={4}>
             <Image fluid="true " alt="171x180" src={pic1} />
           </Col>

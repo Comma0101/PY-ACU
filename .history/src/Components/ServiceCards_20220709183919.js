@@ -155,12 +155,11 @@ const ServiceCards = (props) => {
 
                   <div className="col">
                     <p className="card-text">
-                      This type of massage only pertains to the feet. In
-                      essence, foot reflexology is the practice of stimulating
-                      nerves in the foot that lead to relaxation and through
-                      this stress reduction that leads to better overall health.
-                      The benefits of stress reduction are well known and
-                      documented in the scientific literature
+                      Combo massage is including body massage and foot
+                      reflexology. It is focus on your back and great for
+                      eliminating pain for your shoulders and back. Deep tissue,
+                      and Asian style reflexology into a massage session that is
+                      sure to please even the most expert massage enthusiast.
                     </p>
                   </div>
 
@@ -168,11 +167,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$15</div>
+                      <div className="col chip ms-3">$40</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$30</div>
+                      <div className="col chip ms-3">$60</div>
                     </div>
                   </div>
                 </div>

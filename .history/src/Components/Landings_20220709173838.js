@@ -13,7 +13,7 @@ export default function Landings() {
               <div className="row d-flex justify-content-center text-center">
                 <div className="col-lg-15">
                   <h5
-                    style={{ color: "black" }}
+                    style={{ color: "white" }}
                     className="display-2 font-weight-bold white-text pt-5 mb-3 inline"
                   >
                     PY ACU & SPA
@@ -21,7 +21,7 @@ export default function Landings() {
 
                   {/* <hr className="hr-light" /> */}
 
-                  <h4 className="white-text my-4" style={{ color: "black" }}>
+                  <h4 className="white-text my-4" style={{ color: "white" }}>
                     Mind Body Balance!!
                   </h4>
                 </div>

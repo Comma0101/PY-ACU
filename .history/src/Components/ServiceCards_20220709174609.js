@@ -2,8 +2,6 @@ import React from "react";
 import "./Service.css";
 import pic1 from "../Images/10.jpeg";
 import pic2 from "../Images/6.jpeg";
-import pic3 from "../Images/122.jpeg";
-import pic4 from "../Images/9.jpeg";
 const ServiceCards = (props) => {
   // console.log(props);
   return (
@@ -13,7 +11,7 @@ const ServiceCards = (props) => {
           <div className="container h-10">
             <section className="mx-auto ">
               <div className="card booking-card border-0 v-2 mt-2 mb-3 rounded-bottom ">
-                <img src={pic3} className="card-img-top" />
+                <img src={pic1} className="card-img-top" />
 
                 <div className="card-body">
                   <h4 className="card-title font-weight-bold">
@@ -51,7 +49,7 @@ const ServiceCards = (props) => {
                   className="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
                   data-mdb-ripple-color="light"
                 >
-                  <img src={pic4} className="img-fluid" />
+                  <img src={pic1} className="img-fluid" />
 
                   <div
                     className="mask"
@@ -77,11 +75,11 @@ const ServiceCards = (props) => {
                     <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
                     <div className="row align-items-start">
                       <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$35</div>
+                      <div className="col chip ms-3">$45</div>
                     </div>
                     <div className="row align-items-start">
                       <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$55</div>
+                      <div className="col chip ms-3">$65</div>
                     </div>
                   </div>
                 </div>

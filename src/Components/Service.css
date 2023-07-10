@@ -31,3 +31,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+.col-limited {
+    max-width: 50%;
+    /* Adjust as needed */
+}
+@media screen and (max-width: 600px) {
+    .col-limited {
+        max-width: none;
+    }
+}

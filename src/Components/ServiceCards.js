@@ -152,34 +152,7 @@ const ServiceCards = (props) => {
                     style={{ backgroundColor: " rgba(251, 251, 251, 0.15)" }}
                   ></div>
                 </div>
-                <div className="card-body">
-                  <h4 className="card-title font-weight-bold">
-                    <a>Foot Massage</a>
-                  </h4>
-
-                  <div className="col">
-                    <p className="card-text">
-                      This type of massage only pertains to the feet. In
-                      essence, foot reflexology is the practice of stimulating
-                      nerves in the foot that lead to relaxation and through
-                      this stress reduction that leads to better overall health.
-                      The benefits of stress reduction are well known and
-                      documented in the scientific literature
-                    </p>
-                  </div>
-
-                  <div className="col">
-                    <p className="h5 font-weight-bold mb-2 mt-2">Price</p>
-                    <div className="row align-items-start">
-                      <div className="col">30 mins</div>
-                      <div className="col chip ms-3">$20</div>
-                    </div>
-                    <div className="row align-items-start">
-                      <div className="col">60 mins</div>
-                      <div className="col chip ms-3">$30</div>
-                    </div>
-                  </div>
-                </div>
+             
               </div>
             </section>
           </div>

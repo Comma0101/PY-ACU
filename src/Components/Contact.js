@@ -36,6 +36,7 @@ function Map() {
             </a>
 
             <p className="h5 pt-2">562-470-6350</p>
+            <p className="h5 pt-2">626-537-8738</p>
           </div>
         </div>
       </div>

@@ -137,25 +137,7 @@ const ServiceCards = (props) => {
             </section>
           </div>
         </div>
-       <div className="col">
-  <div className="container h-10">
-    <section className="mx-auto ">
-      <div className="card booking-card border-0 v-2 mt-2 mb-4 rounded-bottom">
-        <div
-          className="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
-          data-mdb-ripple-color="light"
-        >
-         
 
-          <div
-            className="mask"
-            style={{ backgroundColor: " rgba(251, 251, 251, 0.15)" }}
-          ></div>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>;
 
       </div>
     </div>

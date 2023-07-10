@@ -40,6 +40,7 @@ function Map() {
           </div>
         </div>
       </div>
+                <br></br>
       <p className="h9 ">2150 E South St #108, Long Beach, CA 90805</p>
     </div>
   );

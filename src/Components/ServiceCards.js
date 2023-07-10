@@ -1,7 +1,6 @@
 import React from "react";
 import "./Service.css";
 import pic1 from "../Images/10.jpeg";
-import pic2 from "../Images/6.jpeg";
 import pic3 from "../Images/122.jpeg";
 import pic4 from "../Images/9.jpeg";
 const ServiceCards = (props) => {
@@ -37,7 +36,7 @@ const ServiceCards = (props) => {
                       <div className="col">Now 50% OFF</div>
                       <div className="col chip ms-3">$60</div>
                     </div>
-                      <div className="row align-items-start">
+                    <div className="row align-items-start">
                       <div className="col">Cupping</div>
                       <div className="col chip ms-3">$30</div>
                     </div>
@@ -96,7 +95,7 @@ const ServiceCards = (props) => {
       </div>
 
       <div className="row align-items-start">
-        <div className="col">
+        <div className="col col-limited">
           <div className="container h-10">
             <section className="mx-auto ">
               <div className="card booking-card border-0 v-2 mt-2 mb-3 rounded-bottom ">
@@ -137,8 +136,6 @@ const ServiceCards = (props) => {
             </section>
           </div>
         </div>
-
-
       </div>
     </div>
   );
